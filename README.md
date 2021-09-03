@@ -1,9 +1,9 @@
 # BancodeDados-Mysql
 
-####Professor José de Assis - Senac Tatuapé
+#### Professor José de Assis - Senac Tatuapé
 
-##Pequeno projeto de desenvolvimento em banco de dados.
-###utilizando o banco de dados Mysql
+## Pequeno projeto de desenvolvimento em banco de dados.
+### Utilizando o banco de dados Mysql
 
 neste projeto estamos desenvolvendo a competencia da UC-10 TEI-01/2021 
 que consite em:
