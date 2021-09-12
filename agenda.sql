@@ -123,4 +123,20 @@ select * from contatos where nome='Bruce Wayne';
 select * from contatos where nome like 'B%';
 
 -- selecionar um registro específico pelo ID
-select * from contatos where id=5;
+select * from contatos where id=2;
+
+/* CRUD UPDATE (update) */
+-- alterando um dado específico do registro da tabela (usar sempre o id "SEGURANÇA")
+update contatos set fone='91234-8090' where id=4;
+update contatos set email='biamaldova@email.com' where id=2;
+
+
+
+-- alterando todos os dados do registro
+update contatos set nome='Beatriz Maldova',fone='32456-9000',email='maldova@outlook.com' where id=2;
+
+-- CRUD DELETE (delete)
+
+-- excluindo um registro especifico da tabela (USAR SEMPRE O ID COMO FORMA DE "SEGURANÇA") 
+delete from contatos where id=2;
+

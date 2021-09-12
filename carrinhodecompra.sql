@@ -16,6 +16,7 @@ drop database dbcarrinhodecompra;
 -- Selecionar o banco de dados
 use dbcarrinhodecompra;
 
+
 -- Criando uma tabela no banco de dados
 create table carrinho(
 	id int primary key auto_increment,
@@ -73,5 +74,14 @@ select * from produto order by nome desc;
 
 -- operações matematicas 
 select sum(valor*quantidade) as total from carrinho;
+
+-- alterando todos os dados do registro
+update carrinho set produto='Caderno Capa dura',quantidade='23',valor='17.50' where id=6;
+
+update carrinho set produto='Folha de Sulfite A1',quantidade='150',valor='7.50' where id=1;
+
+-- excluindo um registro especifico da tabela (USAR SEMPRE O ID COMO FORMA DE "SEGURANÇA") 
+delete from contatos where id=7;
+
 
  
